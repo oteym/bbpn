@@ -1,0 +1,11 @@
+MATLAB Code to accompany the article "Black Box Probabilistic Numerics" by Teymur, Foley, Breen, Karvonen & Oates (NeurIPS 2021)
+
+BBPN.m contains the main function implementing Black Box Probabilistic Numerics.
+
+script_figure1, script_figure3, script_figure4 reproduce the numbered plots in the article.
+
+The codes used for the comparisons in Figure 2 are from multiple sources and written in different programming languages, making inclusion impractical. Detailed description of the codes and settings used to produce this figure are provided in Appendix C.3.1 of the article.
+
+script_figure3 requires Tensor Toolbox for MATLAB to be installed (though the remaining parts of the figure can be run without it).
+
+Datasets for the Kuramoto-Sivashinsky equation (Figure 4) are included in the subfolder figure4data.
